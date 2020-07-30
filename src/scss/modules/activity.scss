@@ -1,0 +1,75 @@
+.activity {
+    background: #FFC41E;
+}
+.activity__boxtext {
+    max-width: 1130px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 75px 0 55px 0;
+}
+.activity__title {
+    font-family: Plumb;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 130%;
+    letter-spacing: -0.01em;
+    color: #2E373B;
+    margin: 0 10px;
+}
+.activity__link {
+    font-family: Plumb;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 130%;
+    text-align: right;
+    letter-spacing: -0.01em;
+    text-decoration-line: underline;
+    color: #2E373B;
+    margin: 0 10px;
+}
+.activity__boxcells {
+    max-width: 1130px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.activity__cell {
+    margin: 0 10px;
+}
+#last_cell {
+    margin-bottom: 79px;
+}
+.activity__date { 
+    font-family: Circe;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 135%;
+    color: #2E373B;
+    display: block;
+    margin: 20px 0 10px 0;
+}
+.activity__celltitle {
+    font-family: Plumb;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 130%;
+    letter-spacing: -0.01em;
+    color: #F6404F;
+}
+.activity__subtitle {
+    font-family: Circe;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 135%;
+    color: #2E373B;
+    margin: 10px 0 18px 0;
+}
