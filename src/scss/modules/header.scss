@@ -30,6 +30,10 @@
     text-align: center;
     color: #FFFFFF;
 }
+.header__link:hover {
+    text-decoration: underline;
+    color: #FFC41E;
+}
 .header__lang {
     font-family: Circe;
     font-style: normal;
@@ -170,6 +174,13 @@
     color: #FFFFFF;
     margin: 25px 0 302px 0;
     display: block;
+    img {
+        margin-left: 10px;
+    }
+}
+.header__displaylink:hover {
+    text-decoration: underline;
+    color: #FFC41E;
 }
 .header__boxcells {
     display: flex;
@@ -217,7 +228,17 @@
     line-height: 135%;
     color: #FFFFFF;
     padding-left: 40px;
+    img {
+        margin-left: 10px;
+    }
 }
+#header__yellow-link:hover {
+    color: #F6404F;
+}
+.header__celllink:hover {
+    text-decoration: underline;
+    color: #FFC41E;
+} 
 @media(max-width: 1024px) {
     .header__boxcells {
         display: flex;

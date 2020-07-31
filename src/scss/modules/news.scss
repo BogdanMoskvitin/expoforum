@@ -45,6 +45,13 @@
     letter-spacing: -0.01em;
     text-decoration-line: underline;
     color: #2E373B;
+    img {
+        margin-left: 15px;
+    }
+}
+.news__link:hover {
+    text-decoration: underline;
+    color: #F6404F;
 }
 .news__cell {
     display: flex;
@@ -61,7 +68,7 @@
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 135%;
+    line-height: 135%; 
     color: #F6404F;
 }
 .news__celltitle {

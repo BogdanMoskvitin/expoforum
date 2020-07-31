@@ -1,0 +1,85 @@
+.footer {
+    background: #30BCC9;
+}
+.footer__box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1130px;
+    margin: 0 auto;
+}
+.footer__cell {
+    margin: 60px 10px 70px 10px;
+}
+.footer__title {
+    font-family: Plumb;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 130%;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    margin: 40px 0 20px 0;
+}
+.footer__img-app {
+    display: block;
+    margin-bottom: 16px;
+}
+.footer__img-socnet {
+    margin-right: 30px;
+}
+li {
+    margin: 0 0 10px 0;
+}
+.footer__link {
+    font-family: Circe;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 135%;
+    color: #E0E0E0;
+}
+.footer__link:hover {
+    text-decoration-line: underline;
+    color: #FFC41E;
+}
+.footer__subtitle {
+    font-family: Circe;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 135%;
+    color: #E0E0E0;
+}
+form {
+	margin-top: 25px;
+	width: 255px;
+	height: 40px;
+	display: flex;
+}
+.footer__input {
+    width: 215px;
+    height: 40px;
+    background: #FFFFFF;
+    font-family: Circe;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 135%;
+    color: #9C9C9C;
+    display: inline-block;
+    padding-left: 20px;
+}
+.footer__btn {
+    width: 40px;
+    height: 40px;
+    background: #F6404F;
+}
+@media (max-width: 768px) {
+	.footer__cell {
+		margin: 20px 10px 20px 10px;
+	}
+	.footer__title {
+		margin: 20px 0px 20px 0px;
+	}
+}
